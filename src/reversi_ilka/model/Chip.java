@@ -2,9 +2,9 @@ package reversi_ilka.model;
 
 public enum Chip {
 
-    Black("Black", "○"),
-    White("White", "●"),
-    Empty("Empty", "　");
+    Black("Black", " ○ "),
+    White("White", " ● "),
+    Empty("Empty", "   ");
 
     private String state;
     private String display;
